@@ -1,0 +1,85 @@
+/* Style to make the table cells fill the entire webpage */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Style to adjust the dimensions of cells */
+td.cell1 {
+    width: 30%;
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.menu-title {
+    color: red;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.menu-list a {
+    text-decoration: underline;
+}
+
+/* Style for "Cell 2" with the internal table */
+td.cell2 {
+    width: 70%;
+    height: 75%;
+}
+
+.internal-table {
+    width: 90%;
+    height: 80%;
+}
+
+.small-cell {
+    width: 50%; /* Two columns */
+    height: 16.67%; /* Six rows to fit within Cell 2 */
+    border: 2px solid #000;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.small-cell-small-cell-left {
+    left: 0; /* Positioning for the first column */
+    width: 5px;
+}
+
+.small-cell-small-cell-right {
+    left: 0%; /* Positioning for the second column */
+    width: 20%;
+}
+/* Style for "Cell 3" */
+td.cell3 {
+    width: 30%; /* Same width as Cell 1 */
+    height: 30%; /* Full height of the table */
+}
+
+/* Style for the Vitalant image */
+td.cell3 img {
+    width: 100px;
+    height: 175px;
+ } /* Make the image fit the full height of Cell 3 */
